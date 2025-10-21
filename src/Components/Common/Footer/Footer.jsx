@@ -156,7 +156,7 @@ const Footer = () => {
       </div>
 
       {/* Divider */}
-      <div className="border-t border-gray-200 my-4"></div>
+      <div className="border-t border-gray-200 "></div>
 
       {/* === Bottom Section === */}
       <div className="bg-gray-50 py-6">

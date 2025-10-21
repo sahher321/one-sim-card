@@ -4,7 +4,7 @@ import CustomButton from "../../Components/CustomButton/CustomButton";
 
 function SecurityLevel() {
   return (
-    <section className="max-w-screen-xl mx-auto py-16 px-6 font-sora flex flex-col md:flex-row items-center gap-12">
+    <section data-aos="fade-right" className="max-w-screen-xl mx-auto py-16 px-6 font-sora flex flex-col md:flex-row items-center gap-12">
       {/* Text Content */}
       <div className="w-full md:w-1/2 flex flex-col text-center md:text-left justify-center">
         <span className="text-lg text-[#F3C500] font-medium uppercase">

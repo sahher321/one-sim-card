@@ -10,6 +10,14 @@ import Footer from './Components/Common/Footer/Footer'
 import FaqSection from './Section/FaqSection/FaqSection'
 import PricingByApplication from './Section/PricingByApplication/PricingByApplication'
 import BlogSection from './Section/BlogSection/BlogSection'
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+
+AOS.init({
+  duration: 1500, // Animation duration (ms)
+  once: true,     // Whether animation should happen only once
+});
+
 
 function App() {
   return (

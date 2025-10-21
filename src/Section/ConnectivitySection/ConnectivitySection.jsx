@@ -5,7 +5,7 @@ import arrow from "../../assets/images/stats arriw.svg";
 
 export default function ConnectivitySection() {
   return (
-    <section className="max-w-screen-xl mx-auto py-20 px-4 md:px-8 font-sora">
+    <section data-aos="zoom-in" className="max-w-screen-xl mx-auto py-20 px-4 md:px-8 font-sora">
       {/* Heading */}
       <h2 className="text-4xl md:text-6xl font-thin text-[#08080C] text-center mb-16 leading-tight">
         Elevate Your Connectivity <br className="hidden md:block" />

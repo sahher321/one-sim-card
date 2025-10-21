@@ -20,7 +20,7 @@ function Header() {
 
           {/* DESKTOP NAVIGATION */}
           <div className="hidden md:flex items-center space-x-8">
-            <ul className="flex items-center space-x-6 text-[#08080C] font-medium">
+            <ul className="flex items-center space-x-6 text-[#08080C] font-regular">
               <li>
                 <a href="#" className="hover:text-[#455E86] transition">
                   Home
@@ -55,7 +55,7 @@ function Header() {
           <div className="hidden md:flex items-center space-x-4">
             <a
               href="#"
-              className="text-black text-sm px-4 border-r-2 border-[#A8ADB4]"
+              className="text-black text-sm px-4 border-r-2 border-[#A8ADB4] font-medium"
             >
               Login
             </a>

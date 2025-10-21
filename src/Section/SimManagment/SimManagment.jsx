@@ -3,7 +3,7 @@ import simCalculator from "../../assets/images/sim_Managment.svg";
 
 function SimManagment() {
   return (
-    <section className="max-w-screen-xl mx-auto py-16 px-6 font-sora">
+    <section data-aos="fade-left" className="max-w-screen-xl mx-auto py-16 px-6 font-sora">
       {/* Card Section */}
       <div className="bg-white p-6 md:p-8 rounded-2xl flex flex-col md:flex-row items-center md:items-start gap-8">
         {/* Image */}

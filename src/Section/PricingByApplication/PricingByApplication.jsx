@@ -53,11 +53,11 @@ export default function PricingByApplication() {
         {/* ====== IMAGE & PRICING SECTION ====== */}
         <div className="grid grid-cols-1 lg:grid-cols-12 items-center gap-8">
           {/* SIM Card Image (Left Side on Desktop) */}
-          <div className="col-span-12 lg:col-span-7 relative flex justify-center lg:justify-start">
+          <div className="col-span-12 lg:col-span-7 relative flex justify-center lg:justify-start bg-amber-600">
             <img
               src={simCard}
               alt="5G IoT SIM Cards with World Map and Graph"
-              className="w-72 sm:w-96 md:w-[28rem] lg:w-full h-auto object-contain"
+              className="w-72 sm:w-96 md:w-[28rem] lg:w-full h-auto object-contain "
             />
 
           </div>

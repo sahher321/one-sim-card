@@ -4,7 +4,7 @@ import CustomButton from "../../Components/CustomButton/CustomButton";
 
 function IoTSimSection() {
   return (
-    <section className="max-w-screen-xl mx-auto py-16 font-sora ">
+    <section data-aos="fade-down" className="max-w-screen-xl mx-auto py-16 font-sora ">
       {/* Header Section */}
       <div className="text-center md:text-left">
         <p className="text-6xl font-thin text-[#08080C] ">IoT SIM Card</p>
@@ -27,14 +27,13 @@ function IoTSimSection() {
       {/* Card Section */}
       <div className="bg-white p-6 md:p-8 rounded-2xl flex flex-col md:flex-row items-center md:items-start gap-8">
         {/* Image */}
-      <div className="w-full md:w-1/2 flex justify-center md:justify-start bg-white shadow-xl p-3 rounded-4xl">
-  <img
-    src={worldMap}
-    alt="SIM Management"
-    className="w-full h-full object-contain"
-  />
-</div>
-
+        <div className="w-full md:w-1/2 flex justify-center md:justify-start bg-white shadow-lg p-3 rounded-4xl">
+          <img
+            src={worldMap}
+            alt="SIM Management"
+            className="w-full h-full object-contain"
+          />
+        </div>
 
         {/* Text Content */}
         <div className="w-full md:w-1/2 flex flex-col text-center md:text-left justify-center">
@@ -47,11 +46,12 @@ function IoTSimSection() {
             global connectivity IoT SIM card solutions in over 200 countries
             worldwide.
           </p>
-            <CustomButton text="Global IoT" bgColor="#455E86"   hoverColor="#3b5072"
-        textColor="white" />
-
-       
-          
+          <CustomButton
+            text="Global IoT"
+            bgColor="#455E86"
+            hoverColor="#3b5072"
+            textColor="white"
+          />
         </div>
       </div>
     </section>
