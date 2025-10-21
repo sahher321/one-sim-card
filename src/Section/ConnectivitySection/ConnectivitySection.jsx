@@ -38,7 +38,7 @@ export default function ConnectivitySection() {
               Seamlessly connect your IoT devices with our multi-network roaming
               and global coverage in over 200 countries.
             </p>
-            <button className="text-[#F4C600] font-medium text-sm ">
+            <button className="text-[#F4C600] font-medium text-sm hover:underline cursor-pointer">
               Learn More
             </button>
           </div>
