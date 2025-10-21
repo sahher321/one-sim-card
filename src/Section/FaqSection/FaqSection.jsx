@@ -34,7 +34,8 @@ const faqs = {
         "Yes, all data usage and SIM activity can be tracked in real-time from the web portal or via our API endpoints.",
     },
     {
-      question: "What kind of networks are available with OneSimCard M2M / IoT?",
+      question:
+        "What kind of networks are available with OneSimCard M2M / IoT?",
       answer:
         "Currently we offer 2G, 3G & 4G (full LTE, CAT M/M1, & NB-IoT ) networks in most countries we cover. Speeds and network type are dependent on the networks on which we operate. For full details, please fill out a Custom Quote Request form and have a discussion with our IoT experts.",
     },
@@ -48,7 +49,8 @@ const faqs = {
   ],
   Ordering: [
     {
-      question: "What kind of networks are available with OneSimCard M2M / IoT?",
+      question:
+        "What kind of networks are available with OneSimCard M2M / IoT?",
       answer:
         "Currently we offer 2G, 3G & 4G (full LTE, CAT M/M1, & NB-IoT ) networks in most countries we cover. Speeds and network type are dependent on the networks on which we operate. For full details, please fill out a Custom Quote Request form and have a discussion with our IoT experts.",
     },
@@ -95,8 +97,15 @@ export default function FaqSection() {
     <section className="py-16 md:py-20 bg-gradient-to-br from-white to-gray-50 font-sora">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Header */}
-       <h2 className="text-3xl md:text-5xl font-thin text-[#08080C] text-center"> Frequently Asked Questions </h2> <p className="text-[#08080C] text-center mt-2 font-medium"> We are here to help you get answers to your questions about OneSimCard phones and services. </p>
-
+        <h2 className="text-3xl md:text-5xl font-thin text-[#08080C] text-center">
+          {" "}
+          Frequently Asked Questions{" "}
+        </h2>{" "}
+        <p className="text-[#08080C] text-center mt-2 font-medium">
+          {" "}
+          We are here to help you get answers to your questions about OneSimCard
+          phones and services.{" "}
+        </p>
         {/* FAQ Layout */}
         <div className="mt-12 flex flex-col md:flex-row gap-10">
           {/* Sidebar */}
@@ -129,10 +138,7 @@ export default function FaqSection() {
             {faqs[activeCategory]?.map((faq, index) => {
               const isOpen = openIndex === index;
               return (
-                <div
-                  key={index}
-                  className="transition-all"
-                >
+                <div key={index} className="transition-all">
                   <button
                     onClick={() => handleToggle(index)}
                     className="w-full flex items-center gap-3 px-5 py-3 text-left"

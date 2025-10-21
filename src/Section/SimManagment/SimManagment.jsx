@@ -5,7 +5,7 @@ import FeatureSection from "../../Components/FeatureComponent/FeatureSection";
 function SimManagment() {
   return (
     <>
-     <FeatureSection
+      <FeatureSection
         title="Easy SIM"
         subtitle="Management"
         description="A single portal and API capabilities to manage all your Global IoT SIM Card deployments. Providing complete control over all aspects of connectivity."

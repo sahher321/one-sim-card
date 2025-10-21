@@ -4,7 +4,10 @@ import FeatureSection from "../../Components/FeatureComponent/FeatureSection";
 
 function IoTSimSection() {
   return (
-    <section data-aos="fade-down" className="max-w-screen-xl mx-auto py-16 font-sora ">
+    <section
+      data-aos="fade-down"
+      className="max-w-screen-xl mx-auto py-16 font-sora "
+    >
       {/* Header Section */}
       <div className="text-center md:text-left">
         <p className="text-6xl font-thin text-[#08080C] ">IoT SIM Card</p>
@@ -24,7 +27,7 @@ function IoTSimSection() {
         alternative IoT SIM card service provider.
       </p>
 
-        <FeatureSection
+      <FeatureSection
         title="Coverage"
         subtitle="Global"
         description="OneSimCard gives you the world in the palm of your hand providing global connectivity IoT SIM card solutions in over 200 countries worldwide."

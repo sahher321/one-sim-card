@@ -2,10 +2,12 @@ import React from "react";
 import simCards from "../../assets/images/sim_cards.png";
 import arrow from "../../assets/images/stats arriw.svg";
 
-
 export default function ConnectivitySection() {
   return (
-    <section data-aos="zoom-in" className="max-w-screen-2xl mx-auto py-20 px-4 md:px-8 font-sora">
+    <section
+      data-aos="zoom-in"
+      className="max-w-screen-2xl mx-auto py-20 px-4 md:px-8 font-sora"
+    >
       {/* Heading */}
       <h2 className="text-4xl md:text-6xl font-thin text-[#08080C] text-center mb-16 leading-tight">
         Elevate Your Connectivity <br className="hidden md:block" />
@@ -59,11 +61,7 @@ export default function ConnectivitySection() {
               <span className="border-2 border-[#6B7280] text-[#455E86] px-2 py-1 rounded-full">
                 Stats
               </span>
-             <img
-                src={arrow}
-                alt="info icon"
-                className="w-7 h-7"
-              />
+              <img src={arrow} alt="info icon" className="w-7 h-7" />
             </span>
             <h4 className="text-lg md:text-2xl font-medium text-[#08080C] mb-2">
               Multi-IMSI Technology | Superior Reliability
@@ -76,7 +74,7 @@ export default function ConnectivitySection() {
           </div>
 
           {/* Box 2 */}
-      <div className="bg-white shadow-md rounded-2xl p-6 border border-gray-100 md:mr-14">
+          <div className="bg-white shadow-md rounded-2xl p-6 border border-gray-100 md:mr-14">
             <h4 className="text-lg md:text-2xl font-medium text-[#08080C] mb-2">
               200+ Countries | 99% Uptime
             </h4>

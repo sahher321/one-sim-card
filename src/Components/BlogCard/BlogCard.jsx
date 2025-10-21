@@ -7,11 +7,7 @@ export default function BlogCard({ image, author, date, title }) {
       {/* Image Section */}
       <div className="relative w-full h-56 sm:h-60 bg-gray-100">
         {image ? (
-          <img
-            src={image}
-            alt={title}
-            className="w-full h-full object-cover"
-          />
+          <img src={image} alt={title} className="w-full h-full object-cover" />
         ) : (
           <div className="w-full h-full bg-[url('/placeholder-image.png')] bg-center bg-cover opacity-20" />
         )}
@@ -23,7 +19,8 @@ export default function BlogCard({ image, author, date, title }) {
       {/* Content */}
       <div className="p-5">
         <div className="text-lg text-gray-500 font-medium mb-4">
-          <span className="text-[#08080C] font-semibold">{author}</span> <span className="tetx-[#6B7280]">- {date}</span>
+          <span className="text-[#08080C] font-semibold">{author}</span>{" "}
+          <span className="tetx-[#6B7280]">- {date}</span>
         </div>
         <p className="text-[#08080C] text-xl font-regular leading-relaxed">
           {title}
