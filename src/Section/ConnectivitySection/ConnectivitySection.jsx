@@ -1,11 +1,11 @@
 import React from "react";
-import simCards from "../../assets/images/sim_cards.svg";
+import simCards from "../../assets/images/sim_cards.png";
 import arrow from "../../assets/images/stats arriw.svg";
 
 
 export default function ConnectivitySection() {
   return (
-    <section data-aos="zoom-in" className="max-w-screen-xl mx-auto py-20 px-4 md:px-8 font-sora">
+    <section data-aos="zoom-in" className="max-w-screen-2xl mx-auto py-20 px-4 md:px-8 font-sora">
       {/* Heading */}
       <h2 className="text-4xl md:text-6xl font-thin text-[#08080C] text-center mb-16 leading-tight">
         Elevate Your Connectivity <br className="hidden md:block" />
@@ -15,9 +15,9 @@ export default function ConnectivitySection() {
       {/* Main Grid */}
       <div className="grid grid-cols-1 lg:grid-cols-12 items-center gap-10">
         {/* LEFT COLUMN (3 cols on large) */}
-        <div className="lg:col-span-3 flex flex-col gap-8 text-center lg:text-left">
+        <div className="lg:col-span-3 flex flex-col gap-24 text-center lg:text-left ">
           {/* Box 1 */}
-          <div className="bg-white shadow-md rounded-2xl p-6 border border-gray-100">
+          <div className="bg-white shadow-md rounded-2xl p-6 border border-gray-100 md:mr-14">
             <h4 className="text-lg md:text-2xl font-medium text-[#08080C] mb-2">
               Scalable Solutions
             </h4>
@@ -43,7 +43,7 @@ export default function ConnectivitySection() {
         </div>
 
         {/* CENTER IMAGE (6 cols on large) */}
-        <div className="lg:col-span-6 flex justify-center bg-red-600">
+        <div className="lg:col-span-6 flex justify-center">
           <img
             src={simCards}
             alt="OneSIMCard 5G"
@@ -52,7 +52,7 @@ export default function ConnectivitySection() {
         </div>
 
         {/* RIGHT COLUMN (3 cols on large) */}
-        <div className="lg:col-span-3 flex flex-col gap-8 text-center lg:text-left">
+        <div className="lg:col-span-3 flex flex-col gap-8 text-center lg:text-left ">
           {/* Box 1 */}
           <div>
             <span className="inline-flex items-center gap-2 text-sm text-gray-500 mb-1">
@@ -76,7 +76,7 @@ export default function ConnectivitySection() {
           </div>
 
           {/* Box 2 */}
-      <div className="bg-white shadow-md rounded-2xl p-6 border border-gray-100">
+      <div className="bg-white shadow-md rounded-2xl p-6 border border-gray-100 md:mr-14">
             <h4 className="text-lg md:text-2xl font-medium text-[#08080C] mb-2">
               200+ Countries | 99% Uptime
             </h4>

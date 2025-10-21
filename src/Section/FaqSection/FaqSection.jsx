@@ -101,7 +101,7 @@ export default function FaqSection() {
         <div className="mt-12 flex flex-col md:flex-row gap-10">
           {/* Sidebar */}
           <div className="md:w-1/3 w-full flex justify-center md:justify-start">
-            <div className="w-full max-w-xs sm:max-w-sm">
+            <div className="w-full max-w-xs sm:max-w-sm ">
               {categories.map((cat) => (
                 <button
                   key={cat}
@@ -109,7 +109,7 @@ export default function FaqSection() {
                     setActiveCategory(cat);
                     setOpenIndex(0); // ✅ always open first question when switching category
                   }}
-                  className={`flex items-center w-full py-3 px-4 rounded-lg transition-all text-lg sm:text-xl font-medium cursor-pointer ${
+                  className={`flex items-center w-full py-3 px-4 rounded-lg transition-all text-lg sm:text-2xl font-medium cursor-pointer ${
                     activeCategory === cat
                       ? "text-[#455E86] bg-gray-100"
                       : "text-[#08080C] hover:bg-gray-100"
@@ -135,7 +135,7 @@ export default function FaqSection() {
                 >
                   <button
                     onClick={() => handleToggle(index)}
-                    className="w-full flex items-center gap-3 px-5 py-4 text-left"
+                    className="w-full flex items-center gap-3 px-5 py-3 text-left"
                   >
                     {/* Toggle Icon (Left) */}
                     <ChevronRight
@@ -147,7 +147,7 @@ export default function FaqSection() {
                     />
                     {/* Question Text */}
                     <span
-                      className={`text-base sm:text-lg md:text-xl font-thin ${
+                      className={`text-base sm:text-lg md:text-xl font-light ${
                         isOpen ? "text-[#455E86]" : "text-[#08080C]"
                       }`}
                     >
@@ -157,7 +157,7 @@ export default function FaqSection() {
 
                   {/* Answer Text */}
                   {isOpen && (
-                    <div className="px-12 pb-5 text-[#6B7280] text-sm sm:text-base md:text-lg leading-relaxed font-regular">
+                    <div className="px-12 pb-5 text-[#6B7280] text-lg sm:text-base md:text-lg font-regular">
                       {faq.answer}
                     </div>
                   )}

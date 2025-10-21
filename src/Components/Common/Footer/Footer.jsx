@@ -136,7 +136,7 @@ const Footer = () => {
 
       {/* === Social Media Icons === */}
       <div className="max-w-7xl mx-auto flex justify-center sm:justify-end px-4 sm:px-6 md:px-8">
-        <div className="flex space-x-4 text-white text-lg bg-[#6B7280] px-7 py-3 rounded-t-full">
+        <div className="flex space-x-4 text-white text-lg bg-[#6B7280] px-16 py-3 rounded-t-full">
           <a href="#" className="hover:text-[#F4C600]">
             <FaFacebookF />
           </a>

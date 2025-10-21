@@ -1,6 +1,6 @@
 import React from "react";
 import worldMap from "../../assets/images/World_map.svg"; // replace with your map image path
-import CustomButton from "../../Components/CustomButton/CustomButton";
+import FeatureSection from "../../Components/FeatureComponent/FeatureSection";
 
 function IoTSimSection() {
   return (
@@ -24,36 +24,19 @@ function IoTSimSection() {
         alternative IoT SIM card service provider.
       </p>
 
-      {/* Card Section */}
-      <div className="bg-white p-6 md:p-8 rounded-2xl flex flex-col md:flex-row items-center md:items-start gap-8">
-        {/* Image */}
-        <div className="w-full md:w-1/2 flex justify-center md:justify-start bg-white shadow-lg p-3 rounded-4xl">
-          <img
-            src={worldMap}
-            alt="SIM Management"
-            className="w-full h-full object-contain"
-          />
-        </div>
-
-        {/* Text Content */}
-        <div className="w-full md:w-1/2 flex flex-col text-center md:text-left justify-center">
-          <span className="text-lg text-[#455E86] font-medium uppercase">
-            Global
-          </span>
-          <h3 className="text-5xl font-medium text-gray-900">Coverage</h3>
-          <p className="text-[#6B7280] text-lg mt-2 mb-4 max-w-md mx-auto md:mx-0">
-            OneSimCard gives you the world in the palm of your hand — providing
-            global connectivity IoT SIM card solutions in over 200 countries
-            worldwide.
-          </p>
-          <CustomButton
-            text="Global IoT"
-            bgColor="#455E86"
-            hoverColor="#3b5072"
-            textColor="white"
-          />
-        </div>
-      </div>
+        <FeatureSection
+        title="Coverage"
+        subtitle="Global"
+        description="OneSimCard gives you the world in the palm of your hand providing global connectivity IoT SIM card solutions in over 200 countries worldwide."
+        buttonText="Global IoT"
+        imageSrc={worldMap}
+        imageAlt="World Map"
+        reverse={false}
+        aos={{ type: "fade-up", delay: 200, duration: 1000 }}
+        btnBgColor="#455E86"
+        btnHoverColor="#3b5072"
+        btnTextColor="#ffffff"
+      />
     </section>
   );
 }
