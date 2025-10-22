@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { ChevronRight } from "lucide-react";
+import SectionHeading from "../../Components/Heading/SectionHeading";
 
 const categories = [
   "General Service",
@@ -97,10 +98,11 @@ export default function FaqSection() {
     <section className="py-16 md:py-20 bg-gradient-to-br from-white to-gray-50 font-sora">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Header */}
-        <h2 className="text-3xl md:text-5xl font-thin text-[#08080C] text-center">
-          {" "}
-          Frequently Asked Questions{" "}
-        </h2>{" "}
+     
+                 <SectionHeading
+  title="Frequently Asked Questions"
+
+/>
         <p className="text-[#08080C] text-center mt-2 font-medium">
           {" "}
           We are here to help you get answers to your questions about OneSimCard

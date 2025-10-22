@@ -1,6 +1,7 @@
 import React from "react";
 import simCards from "../../assets/images/sim_cards.png";
 import arrow from "../../assets/images/stats arriw.svg";
+import SectionHeading from "../../Components/Heading/SectionHeading";
 
 export default function ConnectivitySection() {
   return (
@@ -8,11 +9,11 @@ export default function ConnectivitySection() {
       data-aos="zoom-in"
       className="max-w-screen-2xl mx-auto py-20 px-4 md:px-8 font-sora"
     >
-      {/* Heading */}
-      <h2 className="text-4xl md:text-6xl font-thin text-[#08080C] text-center mb-16 leading-tight">
-        Elevate Your Connectivity <br className="hidden md:block" />
-        with OneSIMCard
-      </h2>
+     <SectionHeading
+  title="Elevate Your Connectivity<br/>with OneSIMCard"
+  showBreak={true}
+/>
+
 
       {/* Main Grid */}
       <div className="grid grid-cols-1 lg:grid-cols-12 items-center gap-10">

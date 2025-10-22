@@ -1,5 +1,6 @@
 import BlogCard from "../../Components/BlogCard/BlogCard";
 import CustomButton from "../../Components/CustomButton/CustomButton";
+import SectionHeading from "../../Components/Heading/SectionHeading";
 import blog from "../../assets/images/blog.svg";
 
 export default function BlogSection() {
@@ -26,15 +27,22 @@ export default function BlogSection() {
 
   return (
     <section
-      data-aos="flip-up"
+      data-aos="fade-right"
       className="py-16 md:py-20 bg-gradient-to-br from-white to-gray-50 font-sora"
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Header */}
         <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between mb-10">
-          <h2 className="text-3xl md:text-7xl font-thin text-[#08080C] mb-4 sm:mb-0">
+          {/* <h2 className="text-3xl md:text-7xl font-thin text-[#08080C] mb-4 sm:mb-0">
             Latest Insights <br className="hidden sm:block" /> & Blogs
-          </h2>
+          </h2> */}
+          <SectionHeading
+            title="Latest Insights<br/>& Blogs"
+            showBreak={true}
+            align="left"
+              className="mb-10 md:mb-0"
+
+          />
 
           <CustomButton
             text="Explore More"

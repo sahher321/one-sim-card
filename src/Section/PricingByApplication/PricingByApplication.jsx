@@ -1,6 +1,7 @@
 import simCard from "../../assets/images/pricing_image.svg"; // main SIM card image
 import worldMap from "../../assets/images/World_map.svg"; // background image (optional floating)
 import graphImg from "../../assets/images/security_level.svg"; // background image (optional floating)
+import SectionHeading from "../../Components/Heading/SectionHeading";
 
 export default function PricingByApplication() {
   return (
@@ -27,11 +28,17 @@ export default function PricingByApplication() {
         <div className="flex flex-col lg:flex-row justify-between items-start gap-8 mb-12">
           {/* Left Title */}
           <div className="flex-1">
-            <h2 className="text-4xl sm:text-5xl font-thin text-[#08080C] leading-tight">
+            {/* <h2 className="text-4xl sm:text-5xl font-thin text-[#08080C] leading-tight">
               Intelligent pricing
               <br />
               <span className="font-thin">by Application</span>
-            </h2>
+            </h2> */}
+             <SectionHeading
+            title=" Intelligent pricing<br/>& by Application"
+            showBreak={true}
+            align="left"
+
+          />
           </div>
 
           {/* Right Description */}

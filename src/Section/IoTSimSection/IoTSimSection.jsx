@@ -1,16 +1,21 @@
 import React from "react";
 import worldMap from "../../assets/images/World_map.svg"; // replace with your map image path
 import FeatureSection from "../../Components/FeatureComponent/FeatureSection";
+import SectionHeading from "../../Components/Heading/SectionHeading";
 
 function IoTSimSection() {
   return (
     <section
       data-aos="fade-down"
-      className="max-w-screen-xl mx-auto py-16 font-sora "
+      className="max-w-screen-xl mx-auto py-16 font-sora pl-4"
     >
       {/* Header Section */}
-      <div className="text-center md:text-left">
-        <p className="text-6xl font-thin text-[#08080C] ">IoT SIM Card</p>
+      <div className="text-left">
+            <SectionHeading
+  title="IoT SIM Card"
+  align="left"
+
+/>
         <p className="text-[#08080C] mt-2 font-medium text-2xl ml-1">
           IoT SIM Card For Global Connectivity | Secure M2M & Prepaid IoT SIM
           Plans
@@ -19,7 +24,7 @@ function IoTSimSection() {
       </div>
 
       {/* Description */}
-      <p className="text-[#6B7280] font-regular text-lg leading-relaxed mb-12 text-center md:text-left pr-2 md:pr-96">
+      <p className="text-[#6B7280] font-regular text-lg leading-relaxed mb-12 pr-2 md:pr-96">
         With a focus on worldwide M2M roaming, network redundancy in most
         countries, secure connectivity and intelligent pricing by application,{" "}
         <span className="text-[#455E86] font-semibold">OneSimCard IoT</span>{" "}

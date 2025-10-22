@@ -31,7 +31,7 @@ function Banner() {
       </div>
 
       {/* Right Image */}
-      <div className="flex-1 flex justify-center md:justify-end mt-12">
+      <div className="hidden flex-1 sm:flex justify-center md:justify-end mt-12">
         <img src={bannerImage} alt="OneSimCard M2M Banner" className="w-full" />
       </div>
     </section>
