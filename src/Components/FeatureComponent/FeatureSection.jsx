@@ -52,7 +52,7 @@ const FeatureSection = ({
  className="w-[20rem] h-[16rem] sm:w-[22rem] sm:h-[18rem] md:w-[24rem] md:h-[20rem] 
              flex items-center justify-center bg-white rounded-4xl py-2 px-6"
   style={{
-    boxShadow: `0px 8px 14px ${btnBgColor}40`, // "40" adds ~25% opacity in hex
+    boxShadow: `0px 3px 80px ${btnBgColor}20`, // "40" adds ~25% opacity in hex
   }}        >
           <img
             src={imageSrc}

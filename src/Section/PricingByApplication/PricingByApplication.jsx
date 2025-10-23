@@ -1,27 +1,19 @@
-import simCard from "../../assets/images/pricing_image.svg"; // main SIM card image
-import worldMap from "../../assets/images/World_map.svg"; // background image (optional floating)
+import simCard from "../../assets/images/pricing_image.png"; // main SIM card image
+import bg_image from "../../assets/images/bg_color.jpg"; // background image (optional floating)
 import graphImg from "../../assets/images/security_level.svg"; // background image (optional floating)
 import SectionHeading from "../../Components/Heading/SectionHeading";
 
 export default function PricingByApplication() {
   return (
-    <section   className="
-    w-full 
-    bg-[linear-gradient(to_bottom,white_0%_70%,#455E86_30%_100%)] 
-    rounded-4xl 
-    mx-auto 
-    my-8 
-    px-4 
-    py-10 
-    sm:px-6 
-    sm:py-12 
-    md:px-10 
-    md:py-16 
-    lg:px-16 
-    lg:py-20 
-    max-w-[1400px]
-    overflow-hidden
-  "
+<section
+  className="w-full bg-white mx-auto my-8 px-4 md:px-8 rounded-2xl overflow-hidden"
+style={{
+  backgroundImage: `url(${bg_image})`,
+  backgroundRepeat: "no-repeat",
+  backgroundSize: window.innerWidth < 768 ? "cover" : "contain",
+  backgroundPosition: "center",
+}}
+
 >
       <div className="max-w-7xl mx-auto">
         {/* ====== TOP TEXT SECTION ====== */}
@@ -58,13 +50,13 @@ export default function PricingByApplication() {
         </div>
 
         {/* ====== IMAGE & PRICING SECTION ====== */}
-        <div className="grid grid-cols-1 lg:grid-cols-12 items-center gap-8">
+        <div className="grid grid-cols-1 lg:grid-cols-12 items-center gap-8 mb-32">
           {/* SIM Card Image (Left Side on Desktop) */}
           <div className="col-span-12 lg:col-span-7 relative flex justify-center lg:justify-start ">
             <img
               src={simCard}
               alt="5G IoT SIM Cards with World Map and Graph"
-              className="w-72 sm:w-96 md:w-[28rem] lg:w-full h-auto object-contain "
+              className="w-80 sm:w-96 md:w-[28rem] lg:w-full h-auto object-contain "
             />
 
           </div>

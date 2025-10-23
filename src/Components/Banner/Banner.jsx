@@ -21,7 +21,7 @@ function Banner() {
           Secure Communications In 200+ Countries
         </p>
 
-        <p className="text-xl font-sora font-medium text-white bg-gradient-to-r from-[#455E86] to-[#63A8ED] px-8 py-2 rounded-full inline-block">
+        <p className="text-xl font-sora font-medium text-white bg-gradient-to-r from-[#455E86] to-[#63A8ED] pr-8 py-2 rounded-full inline-block">
           M2M / IoT SIM Card Starter Kit
         </p>
 

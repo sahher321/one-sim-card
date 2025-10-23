@@ -3,7 +3,7 @@ import { ArrowUpRight } from "lucide-react";
 
 export default function BlogCard({ image, author, date, title }) {
   return (
-    <div className="bg-white font-sora rounded-3xl shadow-sm border border-gray-100 overflow-hidden hover:shadow-md transition-all duration-300 cursor-pointer">
+    <div className="bg-[#FAFAFA] font-sora rounded-3xl shadow-xs  p-2  transition-all duration-300 cursor-pointer">
       {/* Image Section */}
       <div className="relative w-full h-56 sm:h-60 bg-gray-100">
         {image ? (

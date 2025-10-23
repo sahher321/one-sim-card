@@ -28,7 +28,7 @@ export default function BlogSection() {
   return (
     <section
       data-aos="fade-right"
-      className="py-16 md:py-20 bg-gradient-to-br from-white to-gray-50 font-sora"
+      className="py-16 md:py-20 font-sora"
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Header */}

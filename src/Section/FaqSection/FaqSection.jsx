@@ -95,14 +95,11 @@ export default function FaqSection() {
   };
 
   return (
-    <section className="py-16 md:py-20 bg-gradient-to-br from-white to-gray-50 font-sora">
+    <section className="py-16 md:py-20 font-sora">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Header */}
-     
-                 <SectionHeading
-  title="Frequently Asked Questions"
 
-/>
+        <SectionHeading title="Frequently Asked Questions" />
         <p className="text-[#08080C] text-center mt-2 font-medium">
           {" "}
           We are here to help you get answers to your questions about OneSimCard
@@ -112,7 +109,7 @@ export default function FaqSection() {
         <div className="mt-12 flex flex-col md:flex-row gap-10">
           {/* Sidebar */}
           <div className="md:w-1/3 w-full flex justify-center md:justify-start">
-            <div className="w-full max-w-xs sm:max-w-sm ">
+            <div className="w-full max-w-xs sm:max-w-sm bg-white rounded-4xl p-4 shadow-xs">
               {categories.map((cat) => (
                 <button
                   key={cat}
@@ -120,11 +117,13 @@ export default function FaqSection() {
                     setActiveCategory(cat);
                     setOpenIndex(0); // ✅ always open first question when switching category
                   }}
-                  className={`flex items-center w-full py-3 px-4 rounded-lg transition-all text-lg sm:text-2xl font-medium cursor-pointer ${
-                    activeCategory === cat
-                      ? "text-[#455E86] bg-gray-100"
-                      : "text-[#08080C] hover:bg-gray-100"
-                  }`}
+                  className={`flex items-center w-full py-3 px-4 rounded-lg transition-all text-lg sm:text-2xl font-medium cursor-pointer
+                       ${
+                         activeCategory === cat
+                           ? "text-[#455E86] "
+                           : "text-[#08080C] "
+                       }
+                  `}
                 >
                   {activeCategory === cat && (
                     <ChevronRight className="mr-2 h-5 w-5 text-[#455E86]" />
