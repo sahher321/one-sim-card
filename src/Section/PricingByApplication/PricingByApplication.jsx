@@ -6,13 +6,14 @@ import SectionHeading from "../../Components/Heading/SectionHeading";
 export default function PricingByApplication() {
   return (
 <section
-  className="w-full bg-white mx-auto my-8 px-4 md:px-8 rounded-2xl overflow-hidden"
-style={{
-  backgroundImage: `url(${bg_image})`,
-  backgroundRepeat: "no-repeat",
-  backgroundSize: window.innerWidth < 768 ? "cover" : "contain",
-  backgroundPosition: "center",
-}}
+  className="
+    w-full bg-white mx-auto my-8 px-4 md:px-8 rounded-2xl overflow-hidden
+    bg-no-repeat bg-center
+    bg-cover md:bg-contain   // 👈 Responsive background sizing
+  "
+  style={{
+    backgroundImage: `url(${bg_image})`,
+  }}
 
 >
       <div className="max-w-7xl mx-auto">
@@ -56,7 +57,7 @@ style={{
             <img
               src={simCard}
               alt="5G IoT SIM Cards with World Map and Graph"
-              className="w-80 sm:w-96 md:w-[28rem] lg:w-full h-auto object-contain "
+              className="w-full h-auto max-w-full object-contain drop-shadow-xl"
             />
 
           </div>

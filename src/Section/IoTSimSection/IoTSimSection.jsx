@@ -11,11 +11,7 @@ function IoTSimSection() {
     >
       {/* Header Section */}
       <div className="text-left">
-            <SectionHeading
-  title="IoT SIM Card"
-  align="left"
-
-/>
+        <SectionHeading title="IoT SIM Card" align="left" />
         <p className="text-[#08080C] mt-2 font-medium text-2xl ml-1">
           IoT SIM Card For Global Connectivity | Secure M2M & Prepaid IoT SIM
           Plans
