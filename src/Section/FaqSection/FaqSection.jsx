@@ -109,7 +109,7 @@ export default function FaqSection() {
         <div className="mt-12 flex flex-col md:flex-row gap-10">
           {/* Sidebar */}
           <div className="md:w-1/3 w-full flex justify-center md:justify-start">
-            <div className="w-full max-w-xs sm:max-w-sm bg-white rounded-4xl p-4 shadow-xs">
+            <div className="w-full max-w-xs sm:max-w-sm bg-white rounded-4xl p-4 shadow-[0_8px_90px_rgba(0,0,0,0.03)]">
               {categories.map((cat) => (
                 <button
                   key={cat}

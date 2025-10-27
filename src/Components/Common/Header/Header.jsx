@@ -13,7 +13,7 @@ function Header() {
           <a href="#" className="flex items-center">
             <img
               src={logo}
-              className="h-8 sm:h-10 md:h-12 lg:h-14 mr-2 transition-all duration-300"
+              className="h-8 sm:h-10 md:h-12 lg:h-16 mr-2 transition-all duration-300"
               alt="OneSimCard Logo"
             />
           </a>

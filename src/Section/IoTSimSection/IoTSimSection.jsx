@@ -7,7 +7,7 @@ function IoTSimSection() {
   return (
     <section
       data-aos="fade-down"
-      className="max-w-screen-xl mx-auto py-16 font-sora pl-4"
+      className="max-w-screen-xl mx-auto py-14 font-sora "
     >
       {/* Header Section */}
       <div className="text-left">
@@ -20,7 +20,7 @@ function IoTSimSection() {
       </div>
 
       {/* Description */}
-      <p className="text-[#6B7280] font-regular text-lg leading-relaxed mb-12 pr-2 md:pr-96">
+      <p className="text-[#6B7280] font-regular text-lg leading-relaxed mb-12 pr-2 md:pr-72">
         With a focus on worldwide M2M roaming, network redundancy in most
         countries, secure connectivity and intelligent pricing by application,{" "}
         <span className="text-[#455E86] font-semibold">OneSimCard IoT</span>{" "}

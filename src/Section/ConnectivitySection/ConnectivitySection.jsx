@@ -9,18 +9,17 @@ export default function ConnectivitySection() {
       data-aos="zoom-in"
       className="max-w-screen-2xl mx-auto py-20 px-4 md:px-8 font-sora"
     >
-     <SectionHeading
-  title="Elevate Your Connectivity<br/>with OneSIMCard"
-  showBreak={true}
-/>
-
+      <SectionHeading
+        title="Elevate Your Connectivity<br/>with OneSIMCard"
+        showBreak={true}
+      />
 
       {/* Main Grid */}
       <div className="grid grid-cols-1 lg:grid-cols-12 items-center gap-10">
         {/* LEFT COLUMN (3 cols on large) */}
         <div className="lg:col-span-3 flex flex-col gap-24 text-center lg:text-left ">
           {/* Box 1 */}
-          <div className="bg-white shadow-md rounded-2xl p-6 border border-gray-100 md:mr-14">
+          <div className="bg-white shadow-[0_8px_90px_rgba(0,0,0,0.03)] rounded-4xl p-6 md:mr-28">
             <h4 className="text-lg md:text-2xl font-medium text-[#08080C] mb-2">
               Scalable Solutions
             </h4>
@@ -75,7 +74,7 @@ export default function ConnectivitySection() {
           </div>
 
           {/* Box 2 */}
-          <div className="bg-white shadow-md rounded-2xl p-6 border border-gray-100 md:mr-14">
+          <div className="bg-white p-6 shadow-[0_8px_90px_rgba(0,0,0,0.03)] rounded-4xl p md:mr-24">
             <h4 className="text-lg md:text-2xl font-medium text-[#08080C] mb-2">
               200+ Countries | 99% Uptime
             </h4>

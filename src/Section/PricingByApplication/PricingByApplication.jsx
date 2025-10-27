@@ -5,17 +5,16 @@ import SectionHeading from "../../Components/Heading/SectionHeading";
 
 export default function PricingByApplication() {
   return (
-<section
-  className="
+    <section
+      className="
     w-full bg-white mx-auto my-8 px-4 md:px-8 rounded-2xl overflow-hidden
     bg-no-repeat bg-center
     bg-cover md:bg-contain   // 👈 Responsive background sizing
   "
-  style={{
-    backgroundImage: `url(${bg_image})`,
-  }}
-
->
+      style={{
+        backgroundImage: `url(${bg_image})`,
+      }}
+    >
       <div className="max-w-7xl mx-auto">
         {/* ====== TOP TEXT SECTION ====== */}
         <div className="flex flex-col lg:flex-row justify-between items-start gap-8 mb-12">
@@ -26,12 +25,11 @@ export default function PricingByApplication() {
               <br />
               <span className="font-thin">by Application</span>
             </h2> */}
-             <SectionHeading
-            title=" Intelligent pricing<br/>& by Application"
-            showBreak={true}
-            align="left"
-
-          />
+            <SectionHeading
+              title=" Intelligent pricing<br/>& by Application"
+              showBreak={true}
+              align="left"
+            />
           </div>
 
           {/* Right Description */}
@@ -59,7 +57,6 @@ export default function PricingByApplication() {
               alt="5G IoT SIM Cards with World Map and Graph"
               className="w-full h-auto max-w-full object-contain drop-shadow-xl"
             />
-
           </div>
 
           {/* Pricing Card */}

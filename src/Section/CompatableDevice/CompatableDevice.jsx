@@ -4,7 +4,7 @@ import CustomButton from '../../Components/CustomButton/CustomButton';
 
 function CompatableDevice() {
   return (
-    <section data-aos="slide-up" className="font-sora min-h-96 bg-[#F5F5F5] text-white rounded-4xl mx-4 my-2 py-16">
+    <section data-aos="slide-up" className="font-sora min-h-96 bg-[#F5F5F5] text-white rounded-4xl mx-6 my-2 py-16">
           {/* Card Section */}
           <div className="max-w-screen-xl mx-auto  px-6  p-6 md:p-8 rounded-2xl flex flex-col md:flex-row items-center md:items-start gap-8">
             {/* Image */}
