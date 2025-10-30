@@ -22,7 +22,7 @@ const Footer = () => {
           <div className="flex items-center space-x-2 mb-6">
             <img
               src={logo}
-              className="h-10 sm:h-12 md:h-16"
+              className="h-14  md:h-12 lg:h-16 "
               alt="One-Sim-Card Logo"
             />
           </div>

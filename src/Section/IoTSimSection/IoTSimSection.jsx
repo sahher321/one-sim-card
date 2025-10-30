@@ -7,10 +7,10 @@ function IoTSimSection() {
   return (
     <section
       data-aos="fade-down"
-      className="max-w-screen-xl mx-auto py-14 font-sora "
+      className="max-w-screen-xl mx-auto py-14 font-sora px-4 md:px-0"
     >
       {/* Header Section */}
-      <div className="text-left">
+      <div className="text-left ">
         <SectionHeading title="IoT SIM Card" align="left" />
         <p className="text-[#08080C] mt-2 font-medium text-2xl ml-1">
           IoT SIM Card For Global Connectivity | Secure M2M & Prepaid IoT SIM

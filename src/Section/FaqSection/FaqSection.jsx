@@ -154,8 +154,8 @@ export default function FaqSection() {
                     />
                     {/* Question Text */}
                     <span
-                      className={`text-base sm:text-lg md:text-xl font-light ${
-                        isOpen ? "text-[#455E86]" : "text-[#08080C]"
+                      className={`text-base sm:text-lg md:text-xl font-medium ${
+                        isOpen ? "text-[#455E86] " : "text-[#08080C]"
                       }`}
                     >
                       {faq.question}
